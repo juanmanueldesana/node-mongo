@@ -10,8 +10,8 @@ const StorageScheme = new mongoose.Schema(
     },
   },
   {
-    timestamp: true, //adds createdAt and updatedAt fields
     versionKey: false,
+    timestamps: true,
   }
 );
 
